@@ -7,7 +7,8 @@ Linux:
 
 ```sh
 profile="Your profile directory name"
-cd ~/.mozilla/firefox/$profile/HTTPSEverywhereUserRules
+cd ~/.mozilla/firefox/${profile}/HTTPSEverywhereUserRules
+git init
 git remote add lilydjwg git@github.com:lilydjwg/HTTPSEverywhereUserRules.git
 git pull -u lilydjwg master
 ```
