@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Baidu">
+  <target host="www.baidu.com" />
+
+  <rule from="^http://www\.baidu\.com/" to="https://www.baidu.com/"/>
+</ruleset>
+

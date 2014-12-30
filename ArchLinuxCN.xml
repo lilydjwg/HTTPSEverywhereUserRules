@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="ArchLinuxCN">
+  <target host="*.archlinuxcn.org" />
+  <exclusion pattern="^http://repo\.archlinuxcn\.org/"/>
+
+  <rule from="^http://(.*)\.archlinuxcn\.org/" to="https://$1.archlinuxcn.org/"/>
+</ruleset>
+

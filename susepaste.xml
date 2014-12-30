@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="susepaste">
+  <target host="paste.opensuse.org" />
+
+  <rule from="^http://paste\.opensuse\.org/" to="https://www.susepaste.org/"/>
+</ruleset>
+
