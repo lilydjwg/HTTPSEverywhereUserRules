@@ -7,7 +7,7 @@
   <target host="*.githubusercontent.com"/>
   <target host="collector.githubapp.com"/>
 
-  <exclusion pattern="^http://(binux|ziahamza)\.github\.(com|io)/"/>
+  <exclusion pattern="^http://(binux|ziahamza|resume)\.github\.(com|io)/"/>
 
   <securecookie host="^(?:.*\.)?github\.com$" name=".+" />
   <rule from="^http://((?:assets\d+|f\.cloud|codeload|developer|eclipse|enterprise|gist|help|identicons|jobs|mac|mobile|nodeload|octodex|pages|raw|rg3|status|wiki|windows|www)\.)?github\.com/" to="https://$1github.com/" />
