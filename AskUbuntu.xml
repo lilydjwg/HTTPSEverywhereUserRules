@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="AskUbuntu">
+  <target host="askubuntu.com" />
+
+  <rule from="^http:/askubuntu\.com/" to="https://kubuntu.com/"/>
+</ruleset>
+
