@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="moegirl">
-  <target host="zh.moegirl.org" />
-
-  <rule from="^http://zh\.moegirl\.org/" to="https://zh.moegirl.org/"/>
-</ruleset>
-
