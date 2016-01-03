@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="UbuntuOrgCN">
+  <target host="*.ubuntu.org.cn" />
+  <rule from="^http://(.*)\.ubuntu\.org\.cn/" to="https://$1.ubuntu.org.cn/"/>
+</ruleset>
