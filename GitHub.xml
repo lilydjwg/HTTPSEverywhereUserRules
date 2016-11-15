@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset name="GitHub Pages (revised)">
   <target host="*.github.io"/>
-  <exclusion pattern="^http://(binux|ziahamza|resume)\.github\.io/"/>
+  <exclusion pattern="^http://(binux|ziahamza|resume|code4craft)\.github\.io/"/>
   <rule from="^http://([^/@:\.]+)\.github\.io/" to="https://$1.github.io/" />
 </ruleset>
