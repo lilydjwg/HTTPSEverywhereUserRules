@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="Disqus">
+  <target host="*.disqus.com" />
+
+  <rule from="^http://(.*)\.disqus\.com/" to="https://$1.disqus.com/"/>
+</ruleset>
+
