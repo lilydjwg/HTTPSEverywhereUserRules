@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="Archive.org">
-  <target host="*.archive.org" />
-  <target host="archive.org" />
-
-  <rule from="^http://archive\.org/" to="https://archive.org/"/>
-  <rule from="^http://(.*)\.archive\.org/" to="https://$1.archive.org/"/>
-</ruleset>
-

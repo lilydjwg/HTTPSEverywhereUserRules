@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="vim-cn">
-  <target host="vim-cn.com" />
-  <target host="img.vim-cn.com" />
-  <target host="cfp.vim-cn.com" />
-
-  <rule from="^http://(.*)\.vim-cn\.com/" to="https://$1.vim-cn.com/"/>
-</ruleset>
-

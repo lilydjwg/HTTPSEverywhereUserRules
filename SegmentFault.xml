@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="SegmentFault">
-  <target host="segmentfault.com" />
-  <target host="*.archlinuxcn.org" />
-
-  <rule from="^http://segmentfault\.com/" to="https://segmentfault.com/"/>
-  <rule from="^http://(.*)\.segmentfault\.com/" to="https://$1.segmentfault.com/"/>
-</ruleset>
-

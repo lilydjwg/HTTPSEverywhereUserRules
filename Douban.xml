@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="Douban">
-  <target host="www.douban.com" />
-  <target host="book.douban.com" />
-  <target host="market.douban.com" />
-  <target host="movie.douban.com" />
-  <rule from="^http://(.*)\.douban\.com/" to="https://$1.douban.com/"/>
-</ruleset>

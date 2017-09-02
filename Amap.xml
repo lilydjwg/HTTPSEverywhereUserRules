@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ruleset name="Amap">
-  <target host="ditu.amap.com" />
-
-  <rule from="^http://ditu\.amap\.com/" to="https://ditu.amap.com/"/>
-</ruleset>
-
